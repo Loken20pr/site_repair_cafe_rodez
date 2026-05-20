@@ -1,1 +1,83 @@
-/.metadata
+# =========================================================
+# Eclipse Workspace / IDE
+# =========================================================
+
+# Eclipse metadata
+.metadata/
+.recommenders/
+
+# Eclipse project files
+.project
+.classpath
+.settings/
+.loadpath
+
+# Build folders
+bin/
+target/
+build/
+out/
+
+# =========================================================
+# Java compiled files
+# =========================================================
+
+*.class
+*.jar
+*.war
+*.ear
+
+# =========================================================
+# Logs & temporary files
+# =========================================================
+
+*.log
+*.tmp
+*.temp
+*.swp
+*~
+
+# =========================================================
+# OS files
+# =========================================================
+
+.DS_Store
+Thumbs.db
+
+# =========================================================
+# Project data / non-code files
+# =========================================================
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Save / cache files
+cache/
+tmp/
+temp/
+saves/
+logs/
+
+# User-specific configs
+*.user
+*.prefs
+
+# Exported/generated assets
+dist/
+release/
+
+# =========================================================
+# Ignore everything except source code and config
+# (Décommente si tu veux un repo ultra propre)
+# =========================================================
+
+# *
+# !src/
+# !pom.xml
+# !build.gradle
+# !README.md
+# !.gitignore
+# !assets/
+# !resources/
